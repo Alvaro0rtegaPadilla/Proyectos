@@ -4,40 +4,40 @@
             "category": "Bebidas",
             "items":[
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"Agua Fresca",
+                    "description":"Esta es una botella de agua refrescante fria o al tiempo, purificada de manantial, se le asigna una al cliente, la siguiente se le cobra.",
+                    "price":"$20",
+                    "image":"img/agual.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"Pepsi Cola",
+                    "description":"Refresco Pepsi sabor Cola, Fria o al Tiempo, Al cliente lo que pida.",
+                    "price":"$20",
+                    "image":"img/pepsi.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"Coca-Cola",
+                    "description":"Refresco Coca-Cola , Fria o al Tiempo, Al cliente lo que pida.",
+                    "price":"$20",
+                    "image":"img/cocacola.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"Jugos",
+                    "description":"Deliciosos jugos naturales refrescantes perfectos para este calor.",
+                    "price":"$30 Litro",
+                    "image":"img/jugo.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"Cerveza",
+                    "description":"De la mejor cerveza bien fria pal borracho del vecino.",
+                    "price":"$50 Litro",
+                    "image":"img/cerveza.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"Licor",
+                    "description":"Botella de Licor Don Julio 70 bien fria papa.",
+                    "price":"$799 Botella",
+                    "image":"img/julio.jpg"
                 }
             ]
         },
@@ -45,40 +45,40 @@
             "category": "Desayunos",
             "items":[
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
+                    "name":"desayuno1",
+                    "description":"Este desayuno consta de huevo estrellado, un poco de avena, frutas ,malteada y jugo natural.",
+                    "price":"$65",
                     "image":"img/01.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"desayuno2",
+                    "description":"Este desayuno consta de huevo, hot cakes,tocino y pan tostado.",
+                    "price":"$50",
+                    "image":"img/02.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"desayuno3",
+                    "description":"Estos wafles son deliciosos con freuta y miel.",
+                    "price":"$25",
+                    "image":"img/03.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"desayuno4",
+                    "description":"Pan tostado con aguacate y huevo.",
+                    "price":"$25",
+                    "image":"img/04.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"desayuno5",
+                    "description":"Yogurt con cereales y frutas.",
+                    "price":"$35",
+                    "image":"img/05.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"desayuno6",
+                    "description":"Pan tostado con pollo,huevo, aguacate y especias.",
+                    "price":"$30",
+                    "image":"img/06.jpg"
                 }
             ]
         },
@@ -86,40 +86,40 @@
             "category": "Aperitivos",
             "items":[
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"aperitivos1",
+                    "description":"Chiles jalapenos rellenos de carne molida,ensalada de pollo y queso asadero.",
+                    "price":"$65",
+                    "image":"img/07.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"aperitivos2",
+                    "description":"Tostadas con salsa tatemada.",
+                    "price":"$40",
+                    "image":"img/08.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"aperitivos3",
+                    "description":"Pequenos sandwich perfectos para abrir el apetito.",
+                    "price":"$20",
+                    "image":"img/09.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"aperitivos4",
+                    "description":"Albondigas con salsa BBQ.",
+                    "price":"$50",
+                    "image":"img/10.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"aperitivos5",
+                    "description":"Pequenos Snacks.",
+                    "price":"$25",
+                    "image":"img/11.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"aperitivos6",
+                    "description":"Brochetas de pepino, arroz y salmon.",
+                    "price":"$40",
+                    "image":"img/12.jpg"
                 }
             ]
         },
@@ -127,40 +127,40 @@
             "category": "Platos Fuertes",
             "items":[
                 {
-                    "name":"Huevos Rancheros",
+                    "name":"mole",
                     "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "price":"$85",
+                    "image":"img/13.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
+                    "name":"chiles",
                     "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "price":"$70",
+                    "image":"img/14.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
+                    "name":"tacos",
                     "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "price":"$95",
+                    "image":"img/15.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
+                    "name":"pozole",
                     "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "price":"$90 Litro",
+                    "image":"img/16.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
+                    "name":"tamal",
                     "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "price":"$30",
+                    "image":"img/17.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
+                    "name":"flautas",
                     "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "price":"$65 orden",
+                    "image":"img/18.jpg"
                 }
             ]
         },
@@ -168,40 +168,40 @@
             "category": "Comidas",
             "items":[
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"Hamburguesas",
+                    "description":"Hamburguesa de queso perfecta, queso blanco, amarillo, tocino al horno, carne fresa y pan hecho a mano.",
+                    "price":"$75",
+                    "image":"img/19.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"Pizza",
+                    "description":"Pizza de peperoni hecha por nuestros chefs especializados directos desde italia.",
+                    "price":"$99",
+                    "image":"img/20.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"Burrito",
+                    "description":"Burro de bistec o de trompo, con cilantro, cebolla asada, tomate, y un chile toreado (al gusto).",
+                    "price":"$130",
+                    "image":"img/21.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"Espagueti",
+                    "description":"Fideos de Espagueti con salsa de tomate hecha en casa acompanado de cuatro albondigas de carne molida.",
+                    "price":"$99",
+                    "image":"img/22.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"Milanesa",
+                    "description":"1 pieza de milanesa de pollo acompanado con verduras frescas.",
+                    "price":"$99",
+                    "image":"img/23.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"Arrachera",
+                    "description":"125 gr. de carne de arrachera acompanado con un chile toreado, al termino del gusto del cliente.",
+                    "price":"$150",
+                    "image":"img/24.jpg"
                 }
             ]
         },
@@ -209,40 +209,40 @@
             "category": "Postres",
             "items":[
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"payMango",
+                    "description":"Rebanada de Pay de Mango perfecto para estas fechas de calor.",
+                    "price":"$25 Rebanada",
+                    "image":"img/25.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"Brownie",
+                    "description":"Rebanada de Brownie de chocolate, decoracion exclusiva del chef Gordon Ramsay.",
+                    "price":"$30 Rebanada",
+                    "image":"img/26.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"GMosaicos",
+                    "description":"Rebanada de gelatina de mosaicos, cremosa y deliciosa.",
+                    "price":"$25 Rebanada",
+                    "image":"img/27.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"payOreo",
+                    "description":"Rebanada de pay de oreo con trozos de galleta encima.",
+                    "price":"$25 Rebanada",
+                    "image":"img/28.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"Nieve",
+                    "description":"Tres deliciosas bolas de nieve del sabor de su eleccion, fresa, chocolate o vainilla.Incluye crema batida,una cereza y jarabe de chocolate.",
+                    "price":"$65",
+                    "image":"img/29.jpg"
                 },
                 {
-                    "name":"Huevos Rancheros",
-                    "description":"Huevos al gusto con salsa ranchera, acompanados de frijoles y tortillas.",
-                    "price":"$120.00",
-                    "image":"img/01.jpg"
+                    "name":"Macarons",
+                    "description":"Postre francés que consiste en dos galletas redondas hechas de almendras molidas, azúcar glas y claras de huevo, que se unen mediante un relleno cremoso en el centro",
+                    "price":"$15 c/u",
+                    "image":"img/30.jpg"
                 }
             ]
         }
