@@ -101,7 +101,14 @@
         width: 60px;
         height: 110px;
         background-color: white;
+        position: relative;
         border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    }
+    .dibujo{
+      position: relative;
+      width: 600px;
+      height: 600px;
+
     }
 </style>
 
@@ -113,6 +120,49 @@
         <h3>Alias "AlvaGod"</h3>
 
     </div>
+
+   </div>
+   <style>
+    .cuadrados{
+      width: 200px; 
+      height: 200px; 
+      background-color:blueviolet; 
+       border-radius: 20%; 
+       border-style: ridge;
+    }
+    .parrafo{
+      font-size: 12px; 
+      text-align: center;
+    }
+    .imagenpaginas{
+      height: 150px; 
+      width: 150px; 
+      border-radius: 20%; 
+      display: block; 
+      margin-left: auto; 
+      margin-right: auto;
+
+    }
+   </style>
+   <div></div>
+
+   <div class="cuadrados" style="left: 100px;">
+    <img src="imagen/04.jpg" class="imagenpaginas">
+    <a href="menu.html">Primera pagina</a>
+   <p class="parrafo">Esta es la pagina donde el menu solo es una tabla.</p>
+  </div>
+  <div class="cuadrados" style="left: 400px;">
+    <img src="imagen/05.jpg" class="imagenpaginas">
+    <a href="menu.html">Primera pagina</a>
+   <p class="parrafo">Esta es la pagina donde el menu solo es una tabla.</p>
+  </div>
+  <div class="cuadrados" style="left: 700px;"> 
+    <img src="imagen/06.jpg" class="imagenpaginas">
+    <a href="menu.html">Primera pagina</a>
+   <p class="parrafo">Esta es la pagina donde el menu solo es una tabla.</p>
+  </div>
+
+  <div class="dibujo">
     <div class="rectangulo"></div>
     <div class="cuadrado" style="left: 50px; top: 150px; border-radius: 30%;"></div>
     <div class="triangulo" style="left: 50px; top: -200px;"></div>
@@ -120,8 +170,7 @@
     <div class="triangulo" style="border-bottom: 50px solid white;; left: 180px; top: -150px; transform: rotate(180deg); border-left: 20px solid transparent; border-right: 20px solid transparent;"></div>
     <div class="huevo" style="left: 100px; top:-310px"></div>
     <div class="huevo" style="left: 240px; top:-422px"></div>
-
-</div>
-
+    </div>
+  
 </body>
-</html>
+</html> 
