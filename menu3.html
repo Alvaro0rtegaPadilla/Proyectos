@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.cdnfonts.com/css/adlam-display" rel="stylesheet">
+
+    <title>Restaurant Padilla's Menu</title>
+</head>
+<body>
+  <div style="margin: 24;"> 
+    <nav class="nav navbar-light"
+    style="background-color: rgb(121, 121, 121);">
+    
+       <div class="container">
+        <a class="nav-brand" href="index.html" style="font-family: 'ADLaM Display', sans-serif; color: rgb(0, 0, 0);">Inicio</a>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="nav navbar-nav">
+                <li class="nav-item dropdown">
+                  
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: 'ADLaM Display', sans-serif; color: black;">Unidad 1</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Perfil.html">Perfil</a><br>
+                        <a class="dropdown-item" href="calculadora.html">Calculadora</a><br>
+                        <a class="dropdown-item" href="tienda.html">Restaurante</a>
+                      </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: 'ADLaM Display', sans-serif; color: black;">Unidad 2</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="tiendapedido1.html">Tienda Pedido 1</a><br>
+                        <a class="dropdown-item" href="json.html">Json</a><br>
+                        <a class="dropdown-item" href="tiendapedido2.html">Tienda Pedido 2</a>
+                      </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: 'ADLaM Display', sans-serif; color: black;">Unidad 3</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="basededatos.html">Base de Datos</a><br>
+                        <a class="dropdown-item" href="peliculas.html">Peliculas</a>
+                      </div>
+                </li>
+            </ul>
+          </div>
+       </div>
+    </nav>
+</div>
+
+<div style="margin:24px">
+</div>
+    
+    <h1>Menu</h1>
+    <style>
+        img{
+            width: 200px;
+            height: auto;
+        }
+        table, th, td{
+          border: 1px solid rgb(0, 0, 0);
+          text-align: left;
+          padding: 10px;
+        }
+        table{
+          width: 80%;
+          margin: 20px;
+          border-collapse: collapse;
+          box-shadow: 0 5px 15px rgb(0, 0, 0);
+          margin-left: 50px;
+        }
+        tr:nth-child(even){
+          background-color: rgb(132, 132, 132)
+        }
+        tr:nth-child(odd){
+          background-color: rgb(181, 181, 181)
+        }
+        tr:hover{
+          background-color: rgb(255, 255, 255);
+        }
+
+    </style>
+    <h1>Bebidas</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="imagen/agua.jpg" alt="Agua Fresa"></td>
+            <td><p>Esta es una botella de agua refrescante fria o al tiempo, purificada de manantial, se le asigna una al cliente, la siguiente se le cobra.</p></td>
+            <td>$20</td>
+        </tr>
+        <tr>
+            <td><img src="imagen/pepsi.jpg" alt="Pepsi Cola"></td>
+            <td>Refresco Pepsi sabor Cola, Fria o al Tiempo, Al cliente lo que pida.</td>
+            <td>$20</td>
+        </tr>
+        <tr>
+            <td><img src="imagen/cocacola.jpg" alt="Coca-Cola "></td>
+            <td>Refresco Coca-Cola , Fria o al Tiempo, Al cliente lo que pida.</td>
+            <td>$20</td>
+        </tr>
+        <tr>
+            <td><img src="imagen/jugo.jpg" alt="Jugos"></td>
+            <td>Deliciosos jugos naturales refrescantes perfectos para este calor.</td>
+            <td>$30 Litro</td>
+        </tr>
+        <tr>
+          <td><img src="imagen/cerveza.jpg" alt="Cerveza"></td>
+          <td>De la mejor cerveza bien fria pal borracho del vecino.</td>
+           <td>$50 Litro</td>
+        </tr>
+        <tr>
+          <td><img src="imagen/julio.jpg" alt="Licor"></td>
+          <td>Botella de Licor Don Julio 70 bien fria papa.</td>
+           <td>$799 Botella</td>
+        </tr>
+    </table>
+
+    <h1>Desayunos</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="imagen/01.jpg" alt="desayuno1"></td>
+            <td><p>Este desayuno consta de huevo estrellado, un poco de avena, frutas ,malteada y jugo natural.</p></td>
+            <td>$65</td>
+        </tr>
+        <tr>
+            <td><img src="imagen/02.jpg" alt="desayuno2"></td>
+            <td>Este desayuno consta de huevo, hot cakes,tocino y pan tostado.</td>
+            <td>$50</td>
+        </tr>
+        <tr>
+            <td><img src="imagen/03.jpg" alt="desayuno3"></td>
+            <td>Estos wafles son deliciosos con freuta y miel.</td>
+            <td>$25</td>
+        </tr>
+        <tr>
+            <td><img src="imagen/04.jpg" alt="desayuno4"></td>
+            <td>Pan tostado con aguacate y huevo.</td>
+            <td>$25</td>
+        </tr>
+        <tr>
+          <td><img src="imagen/05.jpg" alt="desayuno5"></td>
+          <td>Yogurt con cereales y frutas.</td>
+           <td>$35</td>
+        </tr>
+        <tr>
+          <td><img src="imagen/06.jpg" alt="desayuno6"></td>
+          <td>Pan tostado con pollo,huevo, aguacate y especias.</td>
+           <td>$30</td>
+        </tr>
+    </table>
+
+    <h1>Aperitivos</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="imagen/07.jpg" alt="aperitivos1"></td>
+            <td><p>Chiles jalapenos rellenos de carne molida,ensalada de pollo y queso asadero.</p></td>
+            <td>$65</td>
+        </tr>
+        <tr>
+            <td><img src="imagen/08.jpg" alt="aperitivos2"></td>
+            <td>Tostadas con salsa tatemada.</td>
+            <td>$40</td>
+        </tr>
+        <tr>
+            <td><img src="imagen/09.jpg" alt="aperitivos3"></td>
+            <td>Pequenos sandwich perfectos para abrir el apetito.</td>
+            <td>$20</td>
+        </tr>
+        <tr>
+            <td><img src="imagen/10.jpg" alt="aperitivos4"></td>
+            <td>Albondigas con salsa BBQ.</td>
+            <td>$50</td>
+        </tr>
+        <tr>
+          <td><img src="imagen/11.jpg" alt="aperitivos5"></td>
+          <td>Pequenos Snacks.</td>
+           <td>$25</td>
+        </tr>
+        <tr>
+          <td><img src="imagen/12.jpg" alt="aperitivos6"></td>
+          <td>Brochetas de pepino, arroz y salmon.</td>
+           <td>$40</td>
+        </tr>
+    </table>
+
+    <h1>Platos Fuertes</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="imagen/13.jpg" alt="mole"></td>
+            <td><p>Mole dulce y picosito con su respectivo arroz y tortillas.</p></td>
+            <td>$85</td>
+        </tr>
+        <tr>
+            <td><img src="imagen/14.jpg" alt="chiles"></td>
+            <td>Chiles en ahogada 100% Mexicanos.</td>
+            <td>$70</td>
+        </tr>
+        <tr>
+            <td><img src="imagen/15.jpg" alt="tacos"></td>
+            <td>Orden de racos de carne asada con cebolla asada, chile morron, limon y su salsa verde o roja.</td>
+            <td>$95</td>
+        </tr>
+        <tr>
+            <td><img src="imagen/16.jpg" alt="pozole"></td>
+            <td>Rico pozole acompanado de lechuga rabano y limoncito.</td>
+            <td>$90 litro</td>
+        </tr>
+        <tr>
+          <td><img src="imagen/17.jpg" alt="tamal"></td>
+          <td>Rico tamal de hoja verde de pollo o de puerco, con repollo y limon.</td>
+           <td>$30 </td>
+        </tr>
+        <tr>
+          <td><img src="imagen/18.jpg" alt="flautas"></td>
+          <td>Flautas de termino que el cliente elija, con lechuga, crema, salsa de aguacate y limon.</td>
+           <td>$65 orden</td>
+        </tr>
+    </table>
+
+    <h1>Comidas</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="imagen/19.jpg" alt="Hamburguesa"></td>
+            <td><p>Hamburguesa de queso perfecta, queso blanco, amarillo, tocino al horno, carne fresa y pan hecho a mano.</p></td>
+            <td>$75</td>
+        </tr>
+        <tr>
+            <td><img src="imagen/20.jpg" alt="Pizza"></td>
+            <td>Pizza de peperoni hecha por nuestros chefs especializados directos desde italia.</td>
+            <td>$99</td>
+        </tr>
+        <tr>
+            <td><img src="imagen/21.jpg" alt="Burrito"></td>
+            <td>Burro de bistec o de trompo, con cilantro, cebolla asada, tomate, y un chile toreado (al gusto).</td>
+            <td>$130</td>
+        </tr>
+        <tr>
+            <td><img src="imagen/22.jpg" alt="Espagueti"></td>
+            <td>Fideos de Espagueti con salsa de tomate hecha en casa acompanado de cuatro albondigas de carne molida.</td>
+            <td>$99</td>
+        </tr>
+        <tr>
+          <td><img src="imagen/23.jpg" alt="Milanesa"></td>
+          <td>1 pieza de milanesa de pollo acompanado con verduras frescas.</td>
+           <td>$99</td>
+        </tr>
+        <tr>
+          <td><img src="imagen/24.jpg" alt="Arrachera"></td>
+          <td>125 gr. de carne de arrachera acompanado con un chile toreado, al termino del gusto del cliente.</td>
+           <td>$150</td>
+        </tr>
+    </table>
+
+    <h1>Postres</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="imagen/25.jpg" alt="payMango"></td>
+            <td><p>Rebanada de Pay de Mango perfecto para estas fechas de calor.</p></td>
+            <td>$25 Rebanada</td>
+        </tr>
+        <tr>
+            <td><img src="imagen/26.jpg" alt="Brownie"></td>
+            <td>Rebanada de Brownie de chocolate, decoracion exclusiva del chef Gordon Ramsay.</td>
+            <td>$30 Rebanada</td>
+        </tr>
+        <tr>
+            <td><img src="imagen/27.jpg" alt="GMosaicos"></td>
+            <td>Rebanada de gelatina de mosaicos, cremosa y deliciosa.</td>
+            <td>$25 Rebanada</td>
+        </tr>
+        <tr>
+            <td><img src="imagen/28.jpg" alt="payOreo"></td>
+            <td>Rebanada de pay de oreo con trozos de galleta encima.</td>
+            <td>$25 Rebanada</td>
+        </tr>
+        <tr>
+          <td><img src="imagen/29.jpg" alt="Nieve"></td>
+          <td>Tres deliciosas bolas de nieve del sabor de su eleccion, fresa, chocolate o vainilla.Incluye crema batida,una cereza y jarabe de chocolate.</td>
+           <td>$65</td>
+        </tr>
+        <tr>
+          <td><img src="imagen/30.jpg" alt="Macarons"></td>
+          <td>Postre francés que consiste en dos galletas redondas hechas de almendras molidas, azúcar glas y claras de huevo, que se unen mediante un relleno cremoso en el centro.</td>
+           <td>$15 c/u</td>
+        </tr>
+    </table>
+
+</body>
+</html>
